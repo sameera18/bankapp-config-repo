@@ -26,6 +26,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 api:
-  user: http://AUTH-SERVICE/api/authenticate
+  loan: http://LOAN-SERVICE/api/loan
   user1: http://AUTH-SERVICE/api/authenticate/user
     
