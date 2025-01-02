@@ -1,8 +1,8 @@
 spring:
   datasource:
       username: root
-      password: root
-      url: jdbc:mysql://${DB_HOST:localhost}:3306/bankapploandb?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      password: Sam@sql18
+      url: jdbc:mysql://${DB_HOST:localhost}:3307/bankapploandb?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
   jpa:
       hibernate:
         ddl-auto: update
