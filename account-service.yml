@@ -1,7 +1,7 @@
 spring:
   datasource:
       username: root
-      password: Sam@mysql18
+      password: Sam@sql18
       url: jdbc:mysql://${DB_HOST:localhost}:3307/bankappaccountdb?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
   jpa:
       hibernate:
